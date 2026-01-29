@@ -1,71 +1,96 @@
+import React from "react";
 import ProjectCard from "../components/ProjectCard";
 
 function Projects() {
   const projects = [
     {
       id: 1,
-      title: <b>Social Media Web Application</b>,
-      description:
-        "A Django-based social media application with user authentication and posts.",
+      title: "Social Media Web Application",
+      description: "A Django-based social media application with user authentication, posts, and interactive features.",
       techStack: "Python, Django, HTML, CSS, Bootstrap, SQL",
-      githubLink:
-        "https://github.com/Fabna-Asiya-UA/SOCIAL-MEDIA-WEB-APPLICATION.git",
-      demoLink: ""
+      githubLink: "https://github.com/Fabna-Asiya-UA/SOCIAL-MEDIA-WEB-APPLICATION.git",
+      demoLink: "",
+      screenshots: [
+        "/images/social.png",
+        "/images/social2.png",
+        "/images/social3.png",
+      ]
     },
     {
       id: 2,
-      title: <b>Hospital Web Application</b>,
-      description:
-        "A web-based hospital management system designed to manage patient records, doctor appointments, and administrative operations efficiently.",
-      techStack: "Python, Django, HTML, CSS, Bootstrap, SQL",
-      githubLink: "https://github.com/Fabna-Asiya-UA/HOSPITAL-WEB-APPLICATION.git",
-      demoLink: ""
+      title: "Role-Based Task & Project Management System",
+      description: "A full-stack web app to manage projects and tasks with role-based access. Built with Django + DRF + JWT and React, featuring dynamic dashboards and charts.",
+      techStack: "Django, DRF, JWT, React, Axios, Bootstrap, Chart.js",
+      githubLink: "https://github.com/Fabna-Asiya-UA/ROLE-BASED-TASK-AND-PROJECT-MANAGEMENT-SYSTEM.git",
+      demoLink: "",
+      screenshots: [
+        "/images/role.png.png",
+        "/images/role2.png.png",
+        "/images/role3.png.png",
+      ]
     },
-    {
+{
       id: 3,
-      title: <b>Student Management System</b>,
+      title: "Student Management System",
       description:
-        "A web application to manage student records with CRUD operations.",
+        "A web application to manage student records with CRUD operations and easy administrative access.",
       techStack: "Python, Django, SQLite, HTML, CSS, Bootstrap",
       githubLink: "https://github.com/Fabna-Asiya-UA/STUDENT-MANAGEMENT-SYSTEM.git",
-      demoLink: ""
+      demoLink: "",
+      screenshots: [
+        "/images/student1.png",
+        "/images/student2.png",
+        "/images/student3.png",
+      ],
     },
     {
       id: 4,
-      title: <b>Portfolio Website</b> ,
+      title: "Hospital Web Application",
       description:
-        "A personal portfolio website built using React to showcase projects and skills.",
-      techStack: "React, JavaScript, HTML, CSS, Bootstrap",
-      githubLink: "",
-      demoLink: ""
-    }
-  ];
+        "A web-based hospital management system to efficiently manage patient records, doctor appointments, and administrative operations.",
+      techStack: "Python, Django, HTML, CSS, Bootstrap, SQL",
+      githubLink: "https://github.com/Fabna-Asiya-UA/HOSPITAL-WEB-APPLICATION.git",
+      demoLink: "",
+      screenshots: [
+        "/images/hospital1.png",
+        "/images/hospital2.png",
+        "/images/hospital3.png",
+      ],
+    },  ];
 
   return (
-    
-    <div
-      className="container mt-5"
-      style={{ minHeight: "80vh", paddingBottom: "50px" ,color:"#334155"}} 
+    <section
+      style={{
+        minHeight: "100vh",
+        width: "100%",
+        padding: "40px 20px",
+        background: "linear-gradient(135deg, #0f172a, #020617)",
+        color: "#eaeef3",
+        boxSizing: "border-box",
+      }}
     >
-      <h2 className="text-center mb-5" style={{ color:"#334155" }}>
+      <h2
+        className="text-center mb-4"
+        style={{ fontSize: "2.5rem", color: "#eff1f4" }}
+      >
         My Projects
       </h2>
-      <hr />
+      <hr
+        style={{
+          border: "1px solid #334155",
+          width: "80%",
+          margin: "0 auto 40px auto",
+        }}
+      />
 
       <div className="row g-4">
-        {projects.map((project) => (
+        {projects.map(project => (
           <div className="col-md-6 col-lg-4" key={project.id}>
-            <ProjectCard
-              title= {project.title}
-              description={project.description}
-              techStack={project.techStack}
-              githubLink={project.githubLink}
-              demoLink={project.demoLink}
-            />
+            <ProjectCard {...project} />
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

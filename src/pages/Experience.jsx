@@ -17,8 +17,9 @@ function Experience() {
   ];
 
   return (
-    <div style={{ padding: "50px", minHeight: "80vh" ,color:"#334155"}}>
-      <h1 style={{ textAlign: "center", marginBottom: "40px"  , color:"#334155"}}>Experience</h1>
+    <div style={{ padding: "50px", minHeight: "80vh" ,color:"#f1f4f8" ,background: "linear-gradient(135deg, #0f172a, #020617)",
+}}>
+      <h1 style={{ textAlign: "center", marginBottom: "40px"  , color:"#e7e9ec"}}>Experience</h1>
       <hr />
       <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
         {experiences.map((exp, index) => (
@@ -46,3 +47,4 @@ function Experience() {
 }
 
 export default Experience;
+ 

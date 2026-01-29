@@ -1,16 +1,28 @@
-import { Link } from "react-router-dom";
+import React from "react";
+import { Navbar as BootstrapNavbar, Nav, Container, Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function Navbar(){
-    return(
-        <nav style={{ padding:"15px" , backgroundColor:"#0A2540", textAlign:"right"}}>
-            <Link to="/" style={{color:"white", marginRight:"15px"}} >Home</Link>
-            <Link to="/experience" style={{color:"white", marginRight:"15px"}}>Experience</Link>
-            <Link to="/about" style={{color:"white", marginRight:"15px"}}>About</Link>
-            <Link to="/projects" style={{color:"white", marginRight:"15px"}}>Projects</Link>
-            <Link to="/resume" style={{color:"white", marginRight:"15px"}}>Resume</Link>
-            <Link to="/contact" style={{color:"white", marginRight:"15px"}}>Contact</Link>
-        </nav>
-    );
-}
+const Navbar = () => {
+  return (
+    <BootstrapNavbar bg="dark" variant="dark" expand="lg" sticky="top">
+      <Container>
+        <BootstrapNavbar.Brand href="#home"><b>Portfolio</b></BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="about">About</Nav.Link>
+            <Nav.Link href="experience">Experience</Nav.Link>
+            <Nav.Link href="projects">Projects</Nav.Link>
+            <Nav.Link href="contact" >Contact</Nav.Link>
+            <Button href="resume" variant="outline-light" className="ms-2">
+              Resume
+            </Button>
+          </Nav>
+        </BootstrapNavbar.Collapse>
+      </Container>
+    </BootstrapNavbar>
+  );
+};
 
 export default Navbar;
