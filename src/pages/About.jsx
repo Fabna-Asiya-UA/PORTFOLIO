@@ -25,19 +25,22 @@ function About() {
       >
         <h2 style={{ color:"#e6e8ee", textAlign: "center", marginBottom: "20px" }}>About Me</h2>
         <hr style={{ marginBottom: "20px", border: "0", height: "2px", background: "#ecf0fa" }} />
-        <p style={{ lineHeight: "1.8", fontSize: "18px"  }}>
-          Hi! I’m <b>Fabna Asiya UA</b>, an aspiring Full Stack Developer with hands-on experience in 
-          <b> Python, Django, Django REST Framework, JavaScript, React, HTML, CSS, Bootstrap, SQL</b>. 
-          I enjoy building scalable, user-friendly web applications and writing clean, efficient code.
-        </p>
         <p style={{ lineHeight: "1.8", fontSize: "18px" }}>
-          I’m passionate about solving real-world problems through technology, continuously learning new tools, 
-          and contributing to collaborative development teams. I’m seeking opportunities where I can apply my full stack skills, 
-          grow as a developer, and create impactful web solutions.
-        </p>
-        <p style={{ lineHeight: "1.8", fontSize: "18px" }}>
-          Key Skills: <b>Python | Django | Django REST Framework | JavaScript | React | HTML | CSS | Bootstrap | SQL</b>
-        </p>
+  Hi! I’m <b>Fabna Asiya UA</b>, an aspiring Web Developer with hands-on experience in 
+  <b> Python, Django, Django REST Framework, JavaScript, React, HTML, CSS, Bootstrap, and SQL</b>. 
+  I enjoy building responsive and scalable web applications, developing RESTful APIs, 
+  and creating clean and maintainable code.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "18px" }}>
+  I have experience working on both frontend and backend development, integrating user interfaces 
+  with backend services to build full-stack web applications. I am passionate about learning new 
+  technologies, improving my development skills, and building practical solutions for real-world problems.
+</p>
+
+<p style={{ lineHeight: "1.8", fontSize: "18px" }}>
+  Key Skills: <b>Python | Django | Django REST Framework | JavaScript | React | HTML | CSS | Bootstrap | SQL</b>
+</p>
       </div>
     </div>
   );

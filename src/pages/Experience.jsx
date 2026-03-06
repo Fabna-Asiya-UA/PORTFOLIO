@@ -2,20 +2,19 @@ import React from "react";
 
 function Experience() {
   const experiences = [
-    {
-      company: "DataSpark Analytics LLP Calicut",
-      role: "Python FullStack Developer Intern",
-      duration: "June 2025 – December 2025",
-      description: [
-        "Gained hands-on experience in front-end and back-end web development using modern technologies.",
-        "Learned to build dynamic, responsive websites and web applications.",
-        "Managed static and media files efficiently and followed MVT architecture to maintain clean project structure.",
-        "Acquired strong programming skills in Python, including object-oriented programming and data handling.",
-        "Developed web applications using Django and Bootstrap frameworks."
-      ]
-    }
-  ];
-
+  {
+    company: "DataSpark Analytics LLP, Calicut",
+    role: "Web Developer Intern",
+    duration: "June 2025 – December 2025",
+    description: [
+      "Worked on front-end and back-end web development using Python and Django.",
+      "Developed responsive web pages using HTML, CSS, and Bootstrap.",
+      "Built and tested web application features following Django’s MVT architecture.",
+      "Assisted in developing and integrating RESTful APIs for web applications.",
+      "Improved understanding of debugging, code optimization, and web development best practices."
+    ]
+  }
+];
   return (
     <div style={{ padding: "50px", minHeight: "80vh" ,color:"#f1f4f8" ,background: "linear-gradient(135deg, #0f172a, #020617)",
 }}>

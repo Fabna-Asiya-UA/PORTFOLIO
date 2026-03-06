@@ -4,17 +4,17 @@ import ProjectCard from "../components/ProjectCard";
 function Projects() {
   const projects = [
     {
-      id: 1,
-      title: "Social Media Web Application",
-      description: "A Django-based social media application with user authentication, posts, and interactive features.",
-      techStack: "Python, Django, HTML, CSS, Bootstrap, SQL",
-      githubLink: "https://github.com/Fabna-Asiya-UA/SOCIAL-MEDIA-WEB-APPLICATION.git",
-      demoLink: "",
-      screenshots: [
-        "/images/social.png",
-        "/images/social2.png",
-        "/images/social3.png",
-      ]
+     id: 1,
+title: "Sociosphere – Social Media Web Application",
+description: "Sociosphere is a full stack social media web application that allows users to register, log in, create and manage posts, and interact with other users through a responsive interface.",
+techStack: "Python, Django, Django REST Framework, JWT, React (Vite), Axios, Tailwind CSS",
+githubLink: "https://github.com/Fabna-Asiya-UA/SOCIOSPHERE.git",
+demoLink: "https://sociosphere-five.vercel.app/",
+// screenshots: [
+//   "/images/social.png",
+//   "/images/social2.png",
+//   "/images/social3.png",
+// ]
     },
     {
       id: 2,
