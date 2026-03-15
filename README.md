@@ -1,16 +1,61 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is my personal portfolio website built to showcase my projects, technical skills, and contact information. The portfolio highlights my work in full-stack web development and provides an easy way for recruiters and developers to explore my projects.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website is designed to be responsive and user-friendly, allowing visitors to view my work on different devices.
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Home section with introduction
+* About section with background information
+* Skills section highlighting technical skills
+* Projects section displaying development projects
+* Contact section for communication
+* Responsive design for mobile and desktop
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+* React (Vite)
+* JavaScript
+* HTML5
+* CSS3
+* Bootstrap
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/Fabna-Asiya-UA/PORTFOLIO.git
+
+Navigate to the project folder
+
+cd portfolio
+
+Install dependencies
+
+npm install
+
+Run the development server
+
+npm run dev
+
+## Project Structure
+
+src/components – UI components
+src/pages – Website pages
+src/assets – Images and icons
+src/App.jsx – Main application component
+
+## Future Improvements
+
+* Add project filtering
+* Add blog section
+* Add dark/light theme toggle
+
+## Author
+
+Fabna Asiya
+Full Stack Developer
