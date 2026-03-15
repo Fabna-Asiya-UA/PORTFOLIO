@@ -7,6 +7,9 @@ This is my personal portfolio website built to showcase my projects, technical s
 The website is designed to be responsive and user-friendly, allowing visitors to view my work on different devices.
 
 
+## Demo
+https://fabnaasiyaua-portfolio.netlify.app/
+
 ## Features
 
 * Home section with introduction
