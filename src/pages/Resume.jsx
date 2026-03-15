@@ -4,17 +4,14 @@ function Resume() {
   return (
     <section
       style={{
-        height: "100vh",
-        width: "100vw",
+        minHeight: "100vh",
+        width: "100%",
         backgroundColor: "#0f172a",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "flex-start",
-        padding: 0,
-        margin: 0,
         color: "#e2e4e7",
-        overflow: "hidden",
       }}
     >
       {/* Title */}
@@ -38,6 +35,7 @@ function Resume() {
         >
           View Resume
         </a>
+
         <a
           href="/resume.pdf"
           download
@@ -58,10 +56,10 @@ function Resume() {
         src="/resume.pdf#zoom=page-width"
         title="Resume Preview"
         style={{
-          flex: 1,
           width: "100%",
+          height: "90vh",
           border: "none",
-          backgroundColor: "#0f172a", // fill background
+          backgroundColor: "#0f172a",
         }}
       >
         Your browser does not support PDF preview.

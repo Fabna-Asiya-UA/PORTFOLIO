@@ -37,7 +37,7 @@ function Home() {
           color: "#cbd5f5",
         }}
       >
-        Web Developer
+         Python Full Stack Developer
       </h3>
 
       <img
@@ -62,7 +62,7 @@ function Home() {
           maxWidth: "800px",
         }}
       >
-        Web Developer specializing in building responsive and scalable web
+        Full Stack Developer specializing in building responsive and scalable web
         applications using Python, Django, Django REST Framework, and React.
       </p>
 
